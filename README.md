@@ -9,14 +9,20 @@ systems.
 The Raspberry Pi was configured in headless mode to allow SSH access. The Sense HAT
 library was installed using apt. Two Python scripts were written: one for displaying
 messages on the LED matrix, and one for reading and printing sensor values.
+
 2.1 Software and Hardware Used
 • Programming language: Python 3
+
 • Libraries: sense-hat, time
+
 • Hardware: Raspberry Pi 5, Sense HAT (attached via GPIO)
 ### 2.1 Software and Hardware Used
 • Programming language: Python 3
+
 • Libraries: sense-hat, time
+
 • Hardware: Raspberry Pi 5, Sense HAT (attached via GPIO)
+
 ### 2.2 Algorithm Setup
 Initial Setup for Raspberry Pi 5 and Sense HAT
 1. Download and flash Raspberry Pi OS to the SD card using Raspberry Pi Imager.
