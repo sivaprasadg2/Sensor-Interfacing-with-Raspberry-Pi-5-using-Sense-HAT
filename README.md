@@ -5,6 +5,8 @@ with the Sense HAT. The objective is to demonstrate reading sensor data (tempera
 humidity, and pressure) and displaying a message using the LED matrix. This provides
 hands-on experience in Python-based embedded development relevant to IoT and smart
 systems.
+(display 1.JPEG)
+*Figure 1: Executing the code and sensor data being displayed in terminal*
 ## 2 Methodology
 The Raspberry Pi was configured in headless mode to allow SSH access. The Sense HAT
 library was installed using apt. Two Python scripts were written: one for displaying
@@ -51,3 +53,6 @@ Part 2: Environmental Sensor Data Reading
 5. Format the data output using Python string formatting.
 6. Display the data in the terminal using the print() function.
 7. Delay the next reading using time.sleep(2) to avoid flooding the output.
+## 3 Result
+Real-time environmental data was measured printed in the terminal at 2-second intervals.
+The LED matrix displayed the message as expected.
